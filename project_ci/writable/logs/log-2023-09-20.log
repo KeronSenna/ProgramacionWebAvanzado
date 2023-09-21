@@ -1,0 +1,22 @@
+CRITICAL - 2023-09-20 19:14:09 --> Undefined variable $productos
+in APPPATH\Views\productos.php on line 20.
+ 1 APPPATH\Views\productos.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\PWA\\project_ci\\app\\Views\\productos.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PWA\\project_ci\\app\\Views\\productos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(25): view('productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Productos->cat('prueba', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 19:20:41 --> Undefined variable $productos
+in APPPATH\Views\productos.php on line 20.
+ 1 APPPATH\Views\productos.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\PWA\\project_ci\\app\\Views\\productos.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PWA\\project_ci\\app\\Views\\productos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(25): view('productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Productos->cat('prueba', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
