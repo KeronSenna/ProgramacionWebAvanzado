@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(181, 235, 217);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+    padding-bottom: 4rem;
+}
+
+p {
+    font-size: 1.7rem;
+    padding: 2rem;
+}
+
+a {
+    font-size: 1.3rem;
+    padding: 2rem;
+}
